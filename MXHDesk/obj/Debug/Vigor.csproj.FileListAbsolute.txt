@@ -1,0 +1,546 @@
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\grpc_csharp_ext.x86.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\grpc_csharp_ext.x64.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x86.so
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x64.so
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x86.dylib
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x64.dylib
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\Vigor.exe.config
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\Vigor.exe
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\Vigor.pdb
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Data.v19.1.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Utils.v19.1.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.XtraBars.v19.1.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.XtraGrid.v19.1.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.XtraLayout.v19.1.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DotRas.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\Newtonsoft.Json.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\System.Memory.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\VigorDeskAutoUpdater.exe
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DotNetZip.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Office.v19.1.Core.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Images.v19.1.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\VigorDeskAutoUpdater.pdb
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\VigorDeskAutoUpdater.exe.config
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Data.v19.1.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Utils.v19.1.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.XtraBars.v19.1.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.XtraGrid.v19.1.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.XtraLayout.v19.1.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DotRas.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\Newtonsoft.Json.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\System.Memory.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DotNetZip.pdb
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DotNetZip.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\DevExpress.Office.v19.1.Core.xml
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.csprojAssemblyReference.cache
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.AboutUI.resources
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.Account.LoginUI.resources
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.USSDMulUI.resources
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.USSDUI.resources
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.MVT.PromotionInfoUI.resources
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.MVT.ExchangeOptionUI.resources
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.CallOutUI.resources
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.SendSMSUI.resources
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.MainUI.resources
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.Properties.Resources.resources
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.csproj.GenerateResource.cache
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.exe.licenses
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.csproj.CoreCompileInputs.cache
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.csproj.CopyComplete
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.exe
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.pdb
+C:\DATA\Project\Projects\eStorm\VirgoDesk\obj\Debug\Vigor.MainUINew.resources
+D:\Projects\Vigor\VirgoDesk\bin\Debug\grpc_csharp_ext.x86.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\grpc_csharp_ext.x64.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x86.so
+D:\Projects\Vigor\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x64.so
+D:\Projects\Vigor\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x86.dylib
+D:\Projects\Vigor\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x64.dylib
+D:\Projects\Vigor\VirgoDesk\bin\Debug\Vigor.exe.config
+D:\Projects\Vigor\VirgoDesk\bin\Debug\Vigor.exe
+D:\Projects\Vigor\VirgoDesk\bin\Debug\Vigor.pdb
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Data.v19.1.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Utils.v19.1.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraBars.v19.1.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraGrid.v19.1.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraLayout.v19.1.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DotRas.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\System.Memory.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\VigorDeskAutoUpdater.exe
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DotNetZip.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Office.v19.1.Core.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Images.v19.1.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\VigorDeskAutoUpdater.pdb
+D:\Projects\Vigor\VirgoDesk\bin\Debug\VigorDeskAutoUpdater.exe.config
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Data.v19.1.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Utils.v19.1.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraBars.v19.1.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraGrid.v19.1.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraLayout.v19.1.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DotRas.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\System.Memory.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DotNetZip.pdb
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DotNetZip.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\DevExpress.Office.v19.1.Core.xml
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.csprojAssemblyReference.cache
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.AboutUI.resources
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.Account.LoginUI.resources
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.MainUINew.resources
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.USSDMulUI.resources
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.USSDUI.resources
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.MVT.PromotionInfoUI.resources
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.MVT.ExchangeOptionUI.resources
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.CallOutUI.resources
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.SendSMSUI.resources
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.MainUI.resources
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.Properties.Resources.resources
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.csproj.GenerateResource.cache
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.exe.licenses
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.csproj.CoreCompileInputs.cache
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.csproj.CopyComplete
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.exe
+D:\Projects\Vigor\VirgoDesk\obj\Debug\Vigor.pdb
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\grpc_csharp_ext.x86.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\grpc_csharp_ext.x64.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x86.so
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x64.so
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x86.dylib
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x64.dylib
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\Vigor.exe.config
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\Vigor.exe
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\Vigor.pdb
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Data.v19.1.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Utils.v19.1.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraBars.v19.1.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraGrid.v19.1.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraLayout.v19.1.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\Newtonsoft.Json.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\System.Memory.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\VigorDeskAutoUpdater.exe
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DotNetZip.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Office.v19.1.Core.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Images.v19.1.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\VigorDeskAutoUpdater.pdb
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\VigorDeskAutoUpdater.exe.config
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Data.v19.1.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Utils.v19.1.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraBars.v19.1.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraGrid.v19.1.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraLayout.v19.1.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\Newtonsoft.Json.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\System.Memory.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DotNetZip.pdb
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DotNetZip.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Office.v19.1.Core.xml
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.csprojAssemblyReference.cache
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.AboutUI.resources
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.MainUINew.resources
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.USSDMulUI.resources
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.USSDUI.resources
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.MVT.PromotionInfoUI.resources
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.MVT.ExchangeOptionUI.resources
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.CallOutUI.resources
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.SendSMSUI.resources
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.MainUI.resources
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.Properties.Resources.resources
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.csproj.GenerateResource.cache
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.exe.licenses
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.csproj.CoreCompileInputs.cache
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.csproj.CopyComplete
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.exe
+C:\DATA\Project\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.pdb
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\grpc_csharp_ext.x86.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\grpc_csharp_ext.x64.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x86.so
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x64.so
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x86.dylib
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x64.dylib
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\Vigor.exe.config
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\Vigor.exe
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\Vigor.pdb
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Data.v19.1.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Utils.v19.1.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraBars.v19.1.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraGrid.v19.1.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraLayout.v19.1.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\System.Memory.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Office.v19.1.Core.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Images.v19.1.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Data.v19.1.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Utils.v19.1.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraBars.v19.1.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraGrid.v19.1.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraLayout.v19.1.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\System.Memory.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\DevExpress.Office.v19.1.Core.xml
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.AboutUI.resources
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.MainUINew.resources
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.USSDMulUI.resources
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.USSDUI.resources
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.MVT.PromotionInfoUI.resources
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.MVT.ExchangeOptionUI.resources
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.CallOutUI.resources
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.SendSMSUI.resources
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.MainUI.resources
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.Properties.Resources.resources
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.csproj.GenerateResource.cache
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.exe.licenses
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.csproj.CoreCompileInputs.cache
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.csproj.CopyComplete
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.exe
+D:\Projects\GSM\Vigor\VirgoDesk\obj\Debug\Vigor.pdb
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\grpc_csharp_ext.x86.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\grpc_csharp_ext.x64.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x86.so
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x64.so
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x86.dylib
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\libgrpc_csharp_ext.x64.dylib
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\Vigor.exe.config
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\Vigor.exe
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\Vigor.pdb
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Data.v22.2.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Drawing.v22.2.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Utils.v22.2.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.XtraBars.v22.2.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\Newtonsoft.Json.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\System.Memory.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Office.v22.2.Core.dll
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Data.v22.2.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Utils.v22.2.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.XtraBars.v22.2.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\Newtonsoft.Json.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\System.Memory.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\bin\Debug\DevExpress.Office.v22.2.Core.xml
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.csproj.AssemblyReference.cache
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.csproj.SuggestedBindingRedirects.cache
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.AboutUI.resources
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.MainUINew.resources
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.USSDMulUI.resources
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.USSDUI.resources
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.MVT.PromotionInfoUI.resources
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.MVT.ExchangeOptionUI.resources
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.CallOutUI.resources
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.SendSMSUI.resources
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.MainUI.resources
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.Properties.Resources.resources
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.csproj.GenerateResource.cache
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.exe.licenses
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.csproj.CoreCompileInputs.cache
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.csproj.CopyComplete
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.exe
+D:\Thanh\New folder\VIGOR_FULL\VirgoDesk\obj\Debug\Vigor.pdb
