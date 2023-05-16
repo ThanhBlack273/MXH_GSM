@@ -1092,7 +1092,7 @@ namespace MXH
                             reconnect = 0;
                             if (!IsSIMConnected)
                             {
-                                lock ()
+                                lock (RequestLocker)
                                 {
                                     ExecuteCommand(GSMCommand.SWITCH_TEXT_MODE);
 
