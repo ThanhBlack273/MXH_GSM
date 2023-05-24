@@ -70,6 +70,7 @@ namespace MXH
                 catch { }
 
                 int duration = Convert.ToInt32(txtDuration.Value);
+                string selected = rgCallMode.Properties.Items[rgCallMode.SelectedIndex].Description;
 
 
                 var serialPorts = GSMControlCenter.GSMComs.Where(com => Callers.Contains(com.PhoneNumber));
@@ -87,46 +88,111 @@ namespace MXH
                         }
                         catch { }
                     }));
-                    new Task(() =>
+                    switch (selected)
                     {
-                        foreach (var com in serialPorts)
-                        {
-                            try
+                        case "Đồng thời":
                             {
-                                if (Stop)
-                                    return;
-                                this.Invoke(new MethodInvoker(() =>
+                                List<Task> tasks = new List<Task>();
+                                foreach (var com in serialPorts)
                                 {
-                                    try
+                                    tasks.Add(new Task(() =>
                                     {
+                                        try
+                                        {
+                                            if (Stop)
+                                                return;
+                                            /*this.Invoke(new MethodInvoker(() =>
+                                            {
+                                                try
+                                                {
 
-                                        lblCallInfo.Text = $"{com.PhoneNumber} -> Đang gọi...";
-                                    }
-                                    catch { }
-                                }));
-                                com.Call(DialNo, duration);
-                                this.Invoke(new MethodInvoker(() =>
+                                                    lblCallInfo.Text = $"{com.PhoneNumber} -> Đang gọi...";
+                                                }
+                                                catch { }
+                                            }));*/
+                                            lblCallInfo.Text = $"Tất cả các số đang gọi...";
+
+                                            com.Call(DialNo, duration);
+                                            this.Invoke(new MethodInvoker(() =>
+                                            {
+                                                try
+                                                {
+                                                    pbSendProcess.PerformStep();
+                                                }
+                                                catch { }
+                                            }));
+                                            if (Stop)
+                                                return;
+                                        }
+                                        catch { }
+                                    }));
+                                }
+                                new Task(() =>
                                 {
                                     try
                                     {
-                                        pbSendProcess.PerformStep();
+                                        tasks.ForEach(task => task.Start());
+                                        /*Task.WaitAll(tasks.ToArray());*/
                                     }
                                     catch { }
-                                }));
-                                if (Stop)
-                                    return;
+                                }).Start();
+
+                                if (Loop)
+                                {
+                                    try
+                                    {
+                                        btnCall_Click(null, null);
+                                    }
+                                    catch { }
+                                }
+                                break;
                             }
-                            catch { }
-                        }
-                        if (Loop)
-                        {
-                            try
+                        case "Tuần tự":
                             {
-                                btnCall_Click(null, null);
+                                new Task(() =>
+                                {
+                                    foreach (var com in serialPorts)
+                                    {
+                                        try
+                                        {
+                                            if (Stop)
+                                                return;
+                                            this.Invoke(new MethodInvoker(() =>
+                                            {
+                                                try
+                                                {
+
+                                                    lblCallInfo.Text = $"{com.PhoneNumber} -> Đang gọi...";
+                                                }
+                                                catch { }
+                                            }));
+                                            com.Call(DialNo, duration);
+                                            this.Invoke(new MethodInvoker(() =>
+                                            {
+                                                try
+                                                {
+                                                    pbSendProcess.PerformStep();
+                                                }
+                                                catch { }
+                                            }));
+                                            if (Stop)
+                                                return;
+                                        }
+                                        catch { }
+                                    }
+                                    if (Loop)
+                                    {
+                                        try
+                                        {
+                                            btnCall_Click(null, null);
+                                        }
+                                        catch { }
+                                    }
+                                }).Start();
+                                break;
                             }
-                            catch { }
-                        }
-                    }).Start();
+                    }
+                    
                 }
             }
             catch { }

@@ -38,10 +38,13 @@
             this.ckLoop = new DevExpress.XtraEditors.CheckEdit();
             this.txtDuration = new System.Windows.Forms.NumericUpDown();
             this.lblCallInfo = new System.Windows.Forms.Label();
+            this.rgCallMode = new DevExpress.XtraEditors.RadioGroup();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.txtTo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSendProcess.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ckLoop.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDuration)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgCallMode.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -57,7 +60,7 @@
             // txtTo
             // 
             this.txtTo.Location = new System.Drawing.Point(100, 15);
-            this.txtTo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTo.Margin = new System.Windows.Forms.Padding(4);
             this.txtTo.Name = "txtTo";
             this.txtTo.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.txtTo.Properties.NullValuePrompt = "Receiver number";
@@ -78,8 +81,8 @@
             // pbSendProcess
             // 
             this.pbSendProcess.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pbSendProcess.Location = new System.Drawing.Point(0, 186);
-            this.pbSendProcess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbSendProcess.Location = new System.Drawing.Point(0, 224);
+            this.pbSendProcess.Margin = new System.Windows.Forms.Padding(4);
             this.pbSendProcess.Name = "pbSendProcess";
             this.pbSendProcess.Properties.ProgressViewStyle = DevExpress.XtraEditors.Controls.ProgressViewStyle.Solid;
             this.pbSendProcess.Properties.ShowTitle = true;
@@ -101,8 +104,8 @@
             // btnCall
             // 
             this.btnCall.ImageOptions.Image = global::MXH.Properties.Resources.phone_3_icon_16;
-            this.btnCall.Location = new System.Drawing.Point(100, 116);
-            this.btnCall.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCall.Location = new System.Drawing.Point(83, 154);
+            this.btnCall.Margin = new System.Windows.Forms.Padding(4);
             this.btnCall.Name = "btnCall";
             this.btnCall.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnCall.Size = new System.Drawing.Size(128, 33);
@@ -114,7 +117,7 @@
             // 
             this.ckLoop.EditValue = true;
             this.ckLoop.Location = new System.Drawing.Point(100, 76);
-            this.ckLoop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckLoop.Margin = new System.Windows.Forms.Padding(4);
             this.ckLoop.Name = "ckLoop";
             this.ckLoop.Properties.AllowFocused = false;
             this.ckLoop.Properties.Caption = "Lặp lại danh sách";
@@ -128,7 +131,7 @@
             this.txtDuration.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
             this.txtDuration.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.txtDuration.Location = new System.Drawing.Point(100, 46);
-            this.txtDuration.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDuration.Margin = new System.Windows.Forms.Padding(4);
             this.txtDuration.Maximum = new decimal(new int[] {
             5,
             0,
@@ -142,18 +145,42 @@
             // 
             this.lblCallInfo.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblCallInfo.ForeColor = System.Drawing.Color.Lime;
-            this.lblCallInfo.Location = new System.Drawing.Point(0, 153);
+            this.lblCallInfo.Location = new System.Drawing.Point(0, 191);
             this.lblCallInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCallInfo.Name = "lblCallInfo";
             this.lblCallInfo.Size = new System.Drawing.Size(301, 33);
             this.lblCallInfo.TabIndex = 11;
             this.lblCallInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // rgCallMode
+            // 
+            this.rgCallMode.Location = new System.Drawing.Point(97, 108);
+            this.rgCallMode.Margin = new System.Windows.Forms.Padding(4);
+            this.rgCallMode.Name = "rgCallMode";
+            this.rgCallMode.Properties.AllowFocused = false;
+            this.rgCallMode.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "Đồng thời"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "Tuần tự")});
+            this.rgCallMode.Size = new System.Drawing.Size(184, 30);
+            this.rgCallMode.TabIndex = 13;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(42, 114);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(47, 16);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Chế độ";
+            // 
             // CallOutUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(301, 208);
+            this.ClientSize = new System.Drawing.Size(301, 246);
+            this.Controls.Add(this.rgCallMode);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.lblCallInfo);
             this.Controls.Add(this.txtDuration);
             this.Controls.Add(this.ckLoop);
@@ -166,7 +193,7 @@
             this.IconOptions.Icon = ((System.Drawing.Icon)(resources.GetObject("CallOutUI.IconOptions.Icon")));
             this.LookAndFeel.SkinName = "Visual Studio 2013 Dark";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CallOutUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Quay số | Gọi đi";
@@ -174,6 +201,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbSendProcess.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ckLoop.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDuration)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgCallMode.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -190,5 +218,7 @@
         private DevExpress.XtraEditors.CheckEdit ckLoop;
         private System.Windows.Forms.NumericUpDown txtDuration;
         private System.Windows.Forms.Label lblCallInfo;
+        private DevExpress.XtraEditors.RadioGroup rgCallMode;
+        private System.Windows.Forms.Label label5;
     }
 }

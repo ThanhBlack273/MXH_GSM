@@ -939,7 +939,7 @@ namespace MXH
         {
             if (!ComStarted)
             {
-                Semaphore.WaitOne();
+                /*Semaphore.WaitOne();*/
                 PortName = portName;
                 PortConnectionHandler = new Thread(new ThreadStart(PortConnectionHanding));
                 SIMConnectionHandler = new Thread(new ThreadStart(SIMConnectionHanding));
@@ -954,7 +954,7 @@ namespace MXH
                 AlertSMSHandler.Start();
                 AlertCallHandler.Start();
                 ComStarted = true;
-                Semaphore.Release();
+
             }
         }
 
@@ -1268,7 +1268,7 @@ namespace MXH
                     }
                     ResetInfo();
                 }
-                Thread.Sleep(1000); //cmt sleep 500
+                Thread.Sleep(500); //cmt sleep 500
             }
             //if (IsSIMConnected)
             //    GlobalEvent.OnGlobalMessaging($"{PortName} -> {PhoneNumber} -> Disconnected");

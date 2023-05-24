@@ -134,7 +134,7 @@ namespace MXH
                                 try
                                 {
                                     tasks.ForEach(task => task.Start());
-                                    Task.WaitAll(tasks.ToArray(), 60);
+                                    Task.WaitAll(tasks.ToArray());
                                 }
                                 catch { }
                             }).Start();
