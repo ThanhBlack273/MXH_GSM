@@ -18,7 +18,7 @@ namespace MXH
     {
         private List<string> Callers = new List<string>();
         public string DialNo { get; set; }
-        public bool Loop { get { return ckLoop.Checked; } }
+        public bool Loop { get => ckLoop.Checked; set => ckLoop.Checked = value; }
         bool Stop = false;
 
 
@@ -50,6 +50,7 @@ namespace MXH
 
         private void btnCall_Click(object sender, EventArgs e)
         {
+            Stop = false;
             try
             {
                 if (Stop)
@@ -106,15 +107,6 @@ namespace MXH
                                         {
                                             if (Stop)
                                                 return;
-                                            /*this.Invoke(new MethodInvoker(() =>
-                                            {
-                                                try
-                                                {
-
-                                                    lblCallInfo.Text = $"{com.PhoneNumber} -> Đang gọi...";
-                                                }
-                                                catch { }
-                                            }));*/
                                             lblCallInfo.Text = $"Tất cả các số đang gọi...";
 
                                             com.Call(DialNo, duration);
@@ -137,26 +129,37 @@ namespace MXH
                                     try
                                     {
                                         tasks.ForEach(task => task.Start());
-                                        /*Task.WaitAll(tasks.ToArray());*/
+                                        Task.WaitAll(tasks.ToArray());
+                                        if (Loop)
+                                        {
+                                            try
+                                            {
+                                                btnCall_Click(null, null);
+                                            }
+                                            catch { }
+                                        }
+                                        else
+                                        {
+                                            try
+                                            {
+                                                Stop = true;
+                                                btnCall.Enabled = true;
+                                                btnCall.Visible = true;
+                                                btnCallOff.Enabled = false;
+                                                btnCallOff.Visible = false;
+
+                                                txtDuration.Enabled = true;
+                                                txtTo.Enabled = true;
+                                                lblCallInfo.Text = $"Hoàn Thành";
+                                            }
+                                            catch { }
+                                        }
                                     }
                                     catch { }
                                 }).Start();
 
-                                if (Loop)
-                                {
-                                    try
-                                    {
-                                        btnCall_Click(null, null);
-                                    }
-                                    catch { }
-                                }
-                                try
-                                {
-                                    btnCall.Enabled = true;
-                                    txtDuration.Enabled = true;
-                                    txtTo.Enabled = true;
-                                }
-                                catch { }
+
+
                                 break;
                             }
                         case "Tuần tự":
@@ -200,20 +203,30 @@ namespace MXH
                                         }
                                         catch { }
                                     }
+                                    else
+                                    {
+                                        try
+                                        {
+                                            Stop = true;
+                                            btnCall.Enabled = true;
+                                            btnCall.Visible = true;
+                                            btnCallOff.Enabled = false;
+                                            btnCallOff.Visible = false;
+
+                                            txtDuration.Enabled = true;
+                                            txtTo.Enabled = true;
+                                            lblCallInfo.Text = $"Hoàn Thành";
+                                        }
+                                        catch { }
+                                    }
                                 }).Start();
-                                try
-                                {
-                                    btnCall.Enabled = true;
-                                    txtDuration.Enabled = true;
-                                    txtTo.Enabled = true;
-                                }
-                                catch { }
+
                                 break;
                             }
                     }
-                    
+
                 }
-                
+
             }
             catch { }
         }
@@ -221,6 +234,8 @@ namespace MXH
         private void btnCallOff_Click(object sender, EventArgs e)
         {
             Stop = true;
+            Loop = false;
+
             btnCall.Enabled = true;
             btnCall.Visible = true;
             btnCallOff.Enabled = false;
@@ -228,6 +243,7 @@ namespace MXH
 
             txtDuration.Enabled = true;
             txtTo.Enabled = true;
+            lblCallInfo.Text = $"Đã dừng lại";
         }
     }
 }
