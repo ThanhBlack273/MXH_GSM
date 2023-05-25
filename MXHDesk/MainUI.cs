@@ -369,10 +369,6 @@ namespace MXH
             GlobalVar.AddSequences(ObjectSequences);
         }
 */
-        private void btnAbout_Click(object sender, EventArgs e)
-        {
-            new AboutUI().ShowDialog(this);
-        }
 
         private void btnSendSMS_Click(object sender, EventArgs e)
         {
@@ -936,6 +932,11 @@ namespace MXH
         private void btnVoice_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnUser_Click(object sender, EventArgs e)
+        {
+            new AboutUI().ShowDialog(this);
         }
     }
 }

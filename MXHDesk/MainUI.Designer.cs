@@ -1087,6 +1087,7 @@
             this.btnUser.Size = new System.Drawing.Size(136, 31);
             this.btnUser.TabIndex = 0;
             this.btnUser.Text = "Thông tin về MXH";
+            this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
             // 
             // MainUI
             // 
