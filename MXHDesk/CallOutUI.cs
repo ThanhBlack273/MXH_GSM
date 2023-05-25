@@ -150,6 +150,13 @@ namespace MXH
                                     }
                                     catch { }
                                 }
+                                try
+                                {
+                                    btnCall.Enabled = true;
+                                    txtDuration.Enabled = true;
+                                    txtTo.Enabled = true;
+                                }
+                                catch { }
                                 break;
                             }
                         case "Tuần tự":
@@ -194,18 +201,19 @@ namespace MXH
                                         catch { }
                                     }
                                 }).Start();
+                                try
+                                {
+                                    btnCall.Enabled = true;
+                                    txtDuration.Enabled = true;
+                                    txtTo.Enabled = true;
+                                }
+                                catch { }
                                 break;
                             }
                     }
                     
                 }
-                try
-                {
-                    btnCall.Enabled = true;
-                    txtDuration.Enabled = true;
-                    txtTo.Enabled = true;
-                }
-                catch { }
+                
             }
             catch { }
         }
