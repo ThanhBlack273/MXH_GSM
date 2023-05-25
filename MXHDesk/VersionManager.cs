@@ -23,7 +23,7 @@ namespace MXH
             ForceUpgrade = false,
             IsLatest = true,
             ProductCode = "MXH",
-            VersionDate = new DateTime(2020, 12, 11),
+            VersionDate = new DateTime(2023, 6, 01),
             VersionType = VersionType.Released,
             DownloadUrl = "",
             ProductName = "MXH"
