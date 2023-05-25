@@ -180,7 +180,7 @@
             // gridColumn2
             // 
             this.gridColumn2.Caption = "Kết quả";
-            this.gridColumn2.FieldName = "LastUSSDResult";
+            this.gridColumn2.FieldName = "LastResult";
             this.gridColumn2.MinWidth = 23;
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.OptionsColumn.AllowEdit = false;

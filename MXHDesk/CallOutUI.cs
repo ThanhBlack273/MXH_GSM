@@ -11,31 +11,41 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MXH.MVT;
+using DevExpress.XtraGrid;
 
 namespace MXH
 {
     public partial class CallOutUI : XtraForm
     {
         private List<string> Callers = new List<string>();
+        private List<GSMCom> Coms = new List<GSMCom>();
         public string DialNo { get; set; }
         public bool Loop { get => ckLoop.Checked; set => ckLoop.Checked = value; }
         bool Stop = false;
-
 
         public CallOutUI()
         {
             InitializeComponent();
             Control.CheckForIllegalCrossThreadCalls = false;
             DevExpress.Data.CurrencyDataController.DisableThreadingProblemsDetection = true;
+            
         }
 
-        public CallOutUI(List<string> sender)
+        public CallOutUI(List<GSMCom> coms)
         {
             InitializeComponent();
             Control.CheckForIllegalCrossThreadCalls = false;
             DevExpress.Data.CurrencyDataController.DisableThreadingProblemsDetection = true;
-            Callers = sender;
+            Coms = coms;
             this.FormClosing += CallOutUI_FormClosing;
+            this.Load += CallOutUI_Load;
+        }
+        private void CallOutUI_Load(object sender, EventArgs e)
+        {
+            foreach (var com in Coms)
+            {
+                Callers.Add(com.PhoneNumber);
+            }
         }
 
         private void CallOutUI_FormClosing(object sender, FormClosingEventArgs e)
@@ -50,6 +60,7 @@ namespace MXH
 
         private void btnCall_Click(object sender, EventArgs e)
         {
+            var op = Application.OpenForms.OfType<MainUI>().Single();
             Stop = false;
             try
             {
@@ -72,8 +83,13 @@ namespace MXH
 
                     txtDuration.Enabled = false;
                     txtTo.Enabled = false;
+                   
                 }
                 catch { }
+                foreach (var com in Coms)
+                {
+                    com.LastResult = string.Empty;
+                }
 
                 int duration = Convert.ToInt32(txtDuration.Value);
                 string selected = rgCallMode.Properties.Items[rgCallMode.SelectedIndex].Description;
@@ -130,6 +146,12 @@ namespace MXH
                                     {
                                         tasks.ForEach(task => task.Start());
                                         Task.WaitAll(tasks.ToArray());
+                                        this.Invoke(new MethodInvoker(() =>
+                                        {
+                                            
+                                            op.ReloadView();
+        
+                                        }));
                                         if (Loop)
                                         {
                                             try
@@ -195,6 +217,12 @@ namespace MXH
                                         }
                                         catch { }
                                     }
+                                    this.Invoke(new MethodInvoker(() =>
+                                    {
+                                        /*var op = Application.OpenForms.OfType<MainUI>().Single();*/
+                                        op.ReloadView();
+
+                                    }));
                                     if (Loop)
                                     {
                                         try
@@ -226,7 +254,6 @@ namespace MXH
                     }
 
                 }
-
             }
             catch { }
         }
@@ -245,5 +272,7 @@ namespace MXH
             txtTo.Enabled = true;
             lblCallInfo.Text = $"Đã dừng lại";
         }
+
+        
     }
 }

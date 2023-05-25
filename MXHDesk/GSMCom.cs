@@ -77,10 +77,10 @@ namespace MXH
         public string Serial { get; set; }
         private Thread AlertCallHandler { get; set; }
         public string LastUSSDCommand { get; set; }
-        public string LastUSSDResult { get; set; }
+        public string LastResult { get; set; }
 
         private object RequestLocker = new object();
-        private Semaphore Semaphore = new Semaphore(2,4);
+        private Semaphore Semaphore = new Semaphore(2, 4);
         private void LogResponseCommand(string response)
         {
             if (!string.IsNullOrEmpty(response) && Log)
@@ -506,36 +506,40 @@ namespace MXH
                                 {
                                     if (IsSIMConnected)
                                     {
-                                            DialInfo dialInfo = (DialInfo)data;
+                                        DialInfo dialInfo = (DialInfo)data;
 
+                                        Port.WriteLine("ATH");
+                                        Thread.Sleep(100);
+                                        LogResponseCommand(Port.ReadExisting());
+
+                                        Port.WriteLine("ATD" + dialInfo.DialNo + ";");
+                                        Thread.Sleep(1000);
+                                        response = Port.ReadExisting();
+                                        LogResponseCommand(response);
+
+                                    loop:
+                                        Port.WriteLine("AT+CPAS");
+                                        Thread.Sleep(100);
+                                        response = Port.ReadExisting();
+                                        if (response.Contains("CPAS: 4"))
+                                        {
+                                            Thread.Sleep(dialInfo.DurationLimit * 1000);
                                             Port.WriteLine("ATH");
                                             Thread.Sleep(100);
                                             LogResponseCommand(Port.ReadExisting());
-
-                                            Port.WriteLine("ATD" + dialInfo.DialNo + ";");
-                                            Thread.Sleep(1000);
-                                            response = Port.ReadExisting();
-                                            LogResponseCommand(response);
-
-                                        loop:
-                                            Port.WriteLine("AT+CPAS");
-                                            Thread.Sleep(100);
-                                            response = Port.ReadExisting();
-                                            if (response.Contains("CPAS: 4"))
+                                            /*GlobalEvent.OnGlobalMessaging($" [{PhoneNumber}] đã gọi [{dialInfo.DialNo}] thành công");*/
+                                            LastResult = $"[{PhoneNumber}] đã gọi [{dialInfo.DialNo}] thành công";
+                                        }
+                                        else
+                                        {
+                                            if (response.Contains("CPAS: 3"))
                                             {
-                                                Thread.Sleep(dialInfo.DurationLimit * 1000);
-                                                Port.WriteLine("ATH");
-                                                Thread.Sleep(100);
-                                                LogResponseCommand(Port.ReadExisting());
+                                                goto loop;
                                             }
-                                            else
-                                            {
-                                                if (response.Contains("CPAS: 3"))
-                                                {
-                                                    goto loop;
-                                                }
-                                            }
-                                        GlobalEvent.OnGlobalMessaging($"[{dialInfo.DialNo}] -> Gọi thành công");
+                                           /* GlobalEvent.OnGlobalMessaging($" [{PhoneNumber}] gọi không được [{dialInfo.DialNo}]");*/
+                                            LastResult = $" [{PhoneNumber}] gọi không được [{dialInfo.DialNo}]";
+                                        }
+
                                     }
                                     break;
                                 }
@@ -910,7 +914,7 @@ namespace MXH
                             var matchExpire = Regex.Match(response, "(\\d{2}\\/\\d{2}\\/\\d{4})");
                             if (matchBalance != null && !string.IsNullOrEmpty(matchBalance.Value))
                             {
-                                MainBalance = Convert.ToInt32(matchBalance.Value.Replace("TKG: ", "").Replace(".","").Replace("d", ""));
+                                MainBalance = Convert.ToInt32(matchBalance.Value.Replace("TKG: ", "").Replace(".", "").Replace("d", ""));
                             }
                             if (matchExpire != null && !string.IsNullOrEmpty(matchExpire.Value))
                             {
@@ -997,7 +1001,7 @@ namespace MXH
                             WriteTimeout = 60000,
                             ReadTimeout = 60000
                         };
-                        
+
                     }
                     if (!Port.IsOpen)
                     {
@@ -1335,14 +1339,14 @@ namespace MXH
         }
         internal void Dispose()
         {
-           /* MVTGlobalVar.RegisterVar.OnSIMRejected(PhoneNumber);
-            MMFGlobarVar.RegisterVar.OnSIMRejected(PhoneNumber);*/
+            /* MVTGlobalVar.RegisterVar.OnSIMRejected(PhoneNumber);
+             MMFGlobarVar.RegisterVar.OnSIMRejected(PhoneNumber);*/
             Stop = true;
         }
         private void ResetInfo()
         {
-           /* MVTGlobalVar.RegisterVar.OnSIMRejected(PhoneNumber);
-            MMFGlobarVar.RegisterVar.OnSIMRejected(PhoneNumber);*/
+            /* MVTGlobalVar.RegisterVar.OnSIMRejected(PhoneNumber);
+             MMFGlobarVar.RegisterVar.OnSIMRejected(PhoneNumber);*/
             SIMCarrier = SIMCarrier.NO_SIM_CARD;
             PhoneNumber = string.Empty;
             IsSIMConnected = false;
@@ -1352,7 +1356,7 @@ namespace MXH
             VNMBUpdateDate = new DateTime(1900, 01, 01);
             Serial = string.Empty;
             LastUSSDCommand = string.Empty;
-            LastUSSDResult  = string.Empty;
+            LastResult = string.Empty;
         }
         public void Reconnect()
         {
@@ -1450,7 +1454,7 @@ namespace MXH
                     {
                         SignalAlert = false;
                     }
-                 
+
                 }
                 catch { }
                 Thread.Sleep(500);
@@ -1479,7 +1483,7 @@ namespace MXH
         public string ExecuteSingleUSSD(string ussd)
         {
             LastUSSDCommand = ussd;
-            LastUSSDResult = string.Empty;
+            LastResult = string.Empty;
             lock (RequestLocker)
             {
                 WaitEmptyResponse();
@@ -1524,13 +1528,13 @@ namespace MXH
                        .Replace("\r", string.Empty);
                     response = response.Replace("+CUSD: 1,", string.Empty);
                     response = response.Replace("+CUSD: 2,", string.Empty);
-                    LastUSSDResult = response;
+                    LastResult = response;
                     GlobalEvent.OnGlobalMessaging($"[{PhoneNumber}] -> Đã nhận USSD thành công");
                 }
                 catch { GlobalEvent.OnGlobalMessaging($"[{PhoneNumber}] -> Đã nhận USSD thất bạt "); }
             }
             Thread.Sleep(300);
-            return LastUSSDResult;
+            return LastResult;
         }
 
         public Action<string> USSDRequest = (ussd) => { };

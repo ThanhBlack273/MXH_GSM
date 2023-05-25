@@ -24,6 +24,10 @@ namespace MXH
     public partial class MainUI : XtraForm
     {
         Thread paintThread;
+        public void ReloadView()
+        {
+            gridControl1.RefreshDataSource();
+        }
 
         public MainUI()
         {
@@ -61,7 +65,7 @@ namespace MXH
                 {
                     try
                     {
-                        gridControl1.RefreshDataSource();
+                        ReloadView();
                         /*//DELETE CMT
                         *//*grdMVT.RefreshDataSource();*//*
                         grdMVTVoucherExchanged.RefreshDataSource();*//*
@@ -739,7 +743,8 @@ namespace MXH
         private void btnCallOut_Click(object sender, EventArgs e)
         {
             int[] selectedRowsHandle = viewGSM.GetSelectedRows();
-            List<string> senders = new List<string>();
+
+            List<GSMCom> coms = new List<GSMCom>();
             foreach (int rowHandle in selectedRowsHandle)
             {
                 var row = viewGSM.GetRow(rowHandle);
@@ -749,18 +754,18 @@ namespace MXH
                     if (com.IsPortConnected && com.IsSIMConnected
                         && !string.IsNullOrEmpty(com.PhoneNumber))
                     {
-                        senders.Add(com.PhoneNumber);
+                        coms.Add(com);
                     }
                 }
             }
 
-            if (!senders.Any())
+            if (selectedRowsHandle.Length == 0)
             {
                 MessageBox.Show("Vui lòng chọn sim thực hiện gọi đi (Giữ ctrl hoặc shift để chọn nhiều)", "Cảnh báo", MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);
                 return;
             }
-            new CallOutUI(senders).ShowDialog(this);
+            new CallOutUI(coms).ShowDialog(this);
         }
 
         private void btnExport_Click(object sender, EventArgs e)
@@ -861,7 +866,7 @@ namespace MXH
                 foreach (var com in coms)
                 {
                     com.LastUSSDCommand = string.Empty;
-                    com.LastUSSDResult = string.Empty;
+                    com.LastResult = string.Empty;
                 }
 
                 try
@@ -883,7 +888,7 @@ namespace MXH
 
                         this.Invoke(new MethodInvoker(() =>
                         {
-                            gridControl1.RefreshDataSource();
+                            ReloadView();
                         }));
                     }).Start();
                 }

@@ -38,7 +38,7 @@ namespace MXH
             foreach (var com in COMS)
             {
                 com.LastUSSDCommand = string.Empty;
-                com.LastUSSDResult = string.Empty;
+                com.LastResult = string.Empty;
             }
             gridControl1.DataSource = COMS;
         }

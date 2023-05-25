@@ -666,7 +666,7 @@
             // gridColumn15
             // 
             this.gridColumn15.Caption = "Kết Qủa";
-            this.gridColumn15.FieldName = "LastUSSDResult";
+            this.gridColumn15.FieldName = "LastResult";
             this.gridColumn15.MinWidth = 111;
             this.gridColumn15.Name = "gridColumn15";
             this.gridColumn15.OptionsColumn.AllowEdit = false;

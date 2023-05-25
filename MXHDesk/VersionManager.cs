@@ -16,8 +16,8 @@ namespace MXH
     {
         public static VersionInfo CurrentVersion = new VersionInfo
         {
-            VersionCode = "2.6",
-            VersionName = "Phiên bản 2.6",
+            VersionCode = "3.0",
+            VersionName = "Phiên bản 3.0",
             Description = @"- Thông tin phiên bản:
     Fix lỗi và update hỗ trợ thêm nhiều loại modem mới",
             ForceUpgrade = false,

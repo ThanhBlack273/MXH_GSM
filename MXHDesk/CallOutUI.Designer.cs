@@ -213,6 +213,7 @@
             this.Name = "CallOutUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Quay số | Gọi đi";
+            this.Load += new System.EventHandler(this.CallOutUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtTo.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSendProcess.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ckLoop.Properties)).EndInit();
