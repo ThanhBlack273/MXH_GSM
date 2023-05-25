@@ -45,7 +45,7 @@
             this.lblProductName.Location = new System.Drawing.Point(0, 0);
             this.lblProductName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblProductName.Name = "lblProductName";
-            this.lblProductName.Size = new System.Drawing.Size(471, 49);
+            this.lblProductName.Size = new System.Drawing.Size(471, 161);
             this.lblProductName.TabIndex = 0;
             this.lblProductName.Text = "MXH";
             this.lblProductName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -55,7 +55,7 @@
             this.lblVersionName.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblVersionName.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVersionName.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lblVersionName.Location = new System.Drawing.Point(0, 49);
+            this.lblVersionName.Location = new System.Drawing.Point(0, 161);
             this.lblVersionName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVersionName.Name = "lblVersionName";
             this.lblVersionName.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
@@ -69,21 +69,20 @@
             this.lblVersionDescription.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblVersionDescription.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVersionDescription.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lblVersionDescription.Location = new System.Drawing.Point(0, 88);
+            this.lblVersionDescription.Location = new System.Drawing.Point(0, 200);
             this.lblVersionDescription.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVersionDescription.Name = "lblVersionDescription";
             this.lblVersionDescription.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.lblVersionDescription.Size = new System.Drawing.Size(471, 268);
+            this.lblVersionDescription.Size = new System.Drawing.Size(471, 143);
             this.lblVersionDescription.TabIndex = 2;
-            this.lblVersionDescription.Text = "Dựa trên phần mềm gốc Vigor \r\nThông tin Dev Vigor: https://www.facebook.com/soul." +
-    "keeper79/";
+            this.lblVersionDescription.Text = "Nhu cầu của khách hàng tạo nên sự hoàn thiện của chúng tôi\r\n";
             // 
             // lblContact
             // 
             this.lblContact.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblContact.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContact.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lblContact.Location = new System.Drawing.Point(0, 356);
+            this.lblContact.Location = new System.Drawing.Point(0, 343);
             this.lblContact.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContact.Name = "lblContact";
             this.lblContact.Size = new System.Drawing.Size(471, 48);
@@ -99,7 +98,7 @@
             this.label2.ForeColor = System.Drawing.Color.SteelBlue;
             this.label2.Image = global::MXH.Properties.Resources.facebook_icon_16;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label2.Location = new System.Drawing.Point(0, 441);
+            this.label2.Location = new System.Drawing.Point(0, 428);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
@@ -116,7 +115,7 @@
             this.label1.ForeColor = System.Drawing.Color.SteelBlue;
             this.label1.Image = global::MXH.Properties.Resources.phone_3_icon_16;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(0, 404);
+            this.label1.Location = new System.Drawing.Point(0, 391);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);

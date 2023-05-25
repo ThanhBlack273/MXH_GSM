@@ -40,6 +40,7 @@
             this.lblCallInfo = new System.Windows.Forms.Label();
             this.rgCallMode = new DevExpress.XtraEditors.RadioGroup();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnCallOff = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.txtTo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSendProcess.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ckLoop.Properties)).BeginInit();
@@ -174,11 +175,26 @@
             this.label5.TabIndex = 12;
             this.label5.Text = "Chế độ";
             // 
+            // btnCallOff
+            // 
+            this.btnCallOff.Enabled = false;
+            this.btnCallOff.ImageOptions.Image = global::MXH.Properties.Resources.phone_3_icon_24;
+            this.btnCallOff.Location = new System.Drawing.Point(83, 154);
+            this.btnCallOff.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCallOff.Name = "btnCallOff";
+            this.btnCallOff.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
+            this.btnCallOff.Size = new System.Drawing.Size(128, 33);
+            this.btnCallOff.TabIndex = 14;
+            this.btnCallOff.Text = "Ngắt cuộc gọi";
+            this.btnCallOff.Visible = false;
+            this.btnCallOff.Click += new System.EventHandler(this.btnCallOff_Click);
+            // 
             // CallOutUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(301, 246);
+            this.Controls.Add(this.btnCallOff);
             this.Controls.Add(this.rgCallMode);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblCallInfo);
@@ -220,5 +236,6 @@
         private System.Windows.Forms.Label lblCallInfo;
         private DevExpress.XtraEditors.RadioGroup rgCallMode;
         private System.Windows.Forms.Label label5;
+        private DevExpress.XtraEditors.SimpleButton btnCallOff;
     }
 }

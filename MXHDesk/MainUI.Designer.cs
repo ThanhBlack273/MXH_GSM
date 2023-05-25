@@ -1086,8 +1086,7 @@
             this.btnUser.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnUser.Size = new System.Drawing.Size(136, 31);
             this.btnUser.TabIndex = 0;
-            this.btnUser.Text = "0000000000";
-            this.btnUser.Visible = false;
+            this.btnUser.Text = "Thông tin về MXH";
             // 
             // MainUI
             // 

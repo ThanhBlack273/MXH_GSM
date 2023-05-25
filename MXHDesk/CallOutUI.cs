@@ -63,7 +63,12 @@ namespace MXH
                 }
                 try
                 {
+
                     btnCall.Enabled = false;
+                    btnCall.Visible = false;
+                    btnCallOff.Enabled = true;
+                    btnCallOff.Visible = true;
+
                     txtDuration.Enabled = false;
                     txtTo.Enabled = false;
                 }
@@ -194,8 +199,27 @@ namespace MXH
                     }
                     
                 }
+                try
+                {
+                    btnCall.Enabled = true;
+                    txtDuration.Enabled = true;
+                    txtTo.Enabled = true;
+                }
+                catch { }
             }
             catch { }
+        }
+
+        private void btnCallOff_Click(object sender, EventArgs e)
+        {
+            Stop = true;
+            btnCall.Enabled = true;
+            btnCall.Visible = true;
+            btnCallOff.Enabled = false;
+            btnCallOff.Visible = false;
+
+            txtDuration.Enabled = true;
+            txtTo.Enabled = true;
         }
     }
 }

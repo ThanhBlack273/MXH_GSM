@@ -506,35 +506,36 @@ namespace MXH
                                 {
                                     if (IsSIMConnected)
                                     {
-                                        DialInfo dialInfo = (DialInfo)data;
+                                            DialInfo dialInfo = (DialInfo)data;
 
-                                        Port.WriteLine("ATH");
-                                        Thread.Sleep(100);
-                                        LogResponseCommand(Port.ReadExisting());
-
-                                        Port.WriteLine("ATD" + dialInfo.DialNo + ";");
-                                        Thread.Sleep(1000);
-                                        response = Port.ReadExisting();
-                                        LogResponseCommand(response);
-
-                                    loop:
-                                        Port.WriteLine("AT+CPAS");
-                                        Thread.Sleep(100);
-                                        response = Port.ReadExisting();
-                                        if (response.Contains("CPAS: 4"))
-                                        {
-                                            Thread.Sleep(dialInfo.DurationLimit * 1000);
                                             Port.WriteLine("ATH");
                                             Thread.Sleep(100);
                                             LogResponseCommand(Port.ReadExisting());
-                                        }
-                                        else
-                                        {
-                                            if (response.Contains("CPAS: 3"))
+
+                                            Port.WriteLine("ATD" + dialInfo.DialNo + ";");
+                                            Thread.Sleep(1000);
+                                            response = Port.ReadExisting();
+                                            LogResponseCommand(response);
+
+                                        loop:
+                                            Port.WriteLine("AT+CPAS");
+                                            Thread.Sleep(100);
+                                            response = Port.ReadExisting();
+                                            if (response.Contains("CPAS: 4"))
                                             {
-                                                goto loop;
+                                                Thread.Sleep(dialInfo.DurationLimit * 1000);
+                                                Port.WriteLine("ATH");
+                                                Thread.Sleep(100);
+                                                LogResponseCommand(Port.ReadExisting());
                                             }
-                                        }
+                                            else
+                                            {
+                                                if (response.Contains("CPAS: 3"))
+                                                {
+                                                    goto loop;
+                                                }
+                                            }
+                                        GlobalEvent.OnGlobalMessaging($"[{dialInfo.DialNo}] -> Gọi thành công");
                                     }
                                     break;
                                 }
