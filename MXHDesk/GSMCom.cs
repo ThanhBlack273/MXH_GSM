@@ -528,7 +528,7 @@ namespace MXH
                                             Thread.Sleep(100);
                                             LogResponseCommand(Port.ReadExisting());
                                             /*GlobalEvent.OnGlobalMessaging($" [{PhoneNumber}] đã gọi [{dialInfo.DialNo}] thành công");*/
-                                            LastResult = $"[{PhoneNumber}] đã gọi [{dialInfo.DialNo}] thành công";
+                                            LastResult = $"Đã gọi [{dialInfo.DialNo}] thành công";
                                         }
                                         else
                                         {
@@ -537,7 +537,7 @@ namespace MXH
                                                 goto loop;
                                             }
                                            /* GlobalEvent.OnGlobalMessaging($" [{PhoneNumber}] gọi không được [{dialInfo.DialNo}]");*/
-                                            LastResult = $" [{PhoneNumber}] gọi không được [{dialInfo.DialNo}]";
+                                            LastResult = $"Gọi không được [{dialInfo.DialNo}]";
                                         }
 
                                     }

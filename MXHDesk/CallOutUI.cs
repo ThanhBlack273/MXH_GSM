@@ -23,6 +23,7 @@ namespace MXH
         public bool Loop { get => ckLoop.Checked; set => ckLoop.Checked = value; }
         bool Stop = false;
 
+
         public CallOutUI()
         {
             InitializeComponent();
